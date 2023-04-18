@@ -15,6 +15,7 @@
     "example": "yarn --cwd Example",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "prepare": "bob build",
+    "prepack": "bob build",
     "release": "release-it --ci",
     "test": "jest --coverage --runInBand --detectOpenHandles",
     "test:unit": "jest -u",
